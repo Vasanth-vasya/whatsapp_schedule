@@ -1,0 +1,107 @@
+body{
+margin:0;
+font-family:sans-serif;
+background:#f5f7fb;
+}
+
+.layout{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:220px;
+background:#111827;
+color:white;
+padding:20px;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+padding:12px 0;
+cursor:pointer;
+}
+.sidebar:hover{
+background:black;
+}
+.sidebar li:hover{background:rgb(30, 183, 32);color:rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.main{
+flex:1;
+padding:30px;
+overflow:auto;
+background:rgb(255, 255, 255);
+}
+h1{
+margin-top:0;
+color:#25D366;
+}
+#spl{
+margin-top:0;
+color:#000000;
+}
+
+.analytics{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:30px;
+}
+
+.formBox{
+display: flex;
+justify-content: center;
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:3px;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ddd;
+border-radius:5px;
+}
+
+.time{
+display:flex;
+gap:10px;
+width:100%;
+
+}
+
+button{
+margin-top:10px;
+background:#25D366;
+border:none;
+color:white;
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+width:100%;
+}
+button:hover{background:#128C7E;
+color: #000000;}
+
+.tableBox{
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:10px;
+border-bottom:1px solid #eee;
+}

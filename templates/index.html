@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>WhatsApp SaaS</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<h2>Auto wish 💝</h2>
+
+<ul>
+
+<li>📊 Dashboard</li>
+<li>📅 Schedule</li>
+<li>📢 Campaigns</li>
+<li>📜 History</li>
+<li>⚙ Settings</li>
+
+</ul>
+
+</div>
+
+
+<!-- MAIN -->
+
+<div class="main">
+
+<h1>Dashboard</h1>
+
+
+<!-- ANALYTICS -->
+
+<!-- <div class="analytics">
+
+<canvas id="statsChart"></canvas>
+
+</div>
+ -->
+
+<!-- SCHEDULE FORM -->
+<h2 id="spl">Schedule Message</h2>
+
+<div class="formBox">
+
+
+<form id="scheduleForm">
+
+<input type="text" id="phone" placeholder="+91XXXXXXXXXX">
+
+<textarea id="message" placeholder="Message"></textarea>
+
+<div class="time">
+
+<input type="number" id="hour" placeholder="Hour">
+<input type="number" id="minute" placeholder="Minute">
+
+</div>
+
+<button>Schedule Task</button>
+
+</form>
+
+</div>
+
+
+<!-- MESSAGE TABLE -->
+
+<div class="tableBox">
+
+<h2>Scheduled Messages</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Phone</th>
+<th>Message</th>
+<th>Time</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody id="tableBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
